@@ -36,5 +36,5 @@ jobs:
       - task: Bash@3
         inputs:
          targetType: 'inline'
-         script: 'curl -H "Content-Type: multipart/form-data" -u ruthiedlshtein@gmail.com:Tuvya2022! -F "file=@results/test-results.xml" "https://citybooktest.atlassian.net//rest/raven/1.0/import/execution/junit?projectKey=TEST"'
+         script: 'curl -H "Content-Type: multipart/form-data" -u ruthiedlshtein:Tuvya2022! -F "file=@results/test-results.xml" "https://citybooktest.atlassian.net//rest/raven/1.0/import/execution/junit?projectKey=TEST"'
           
