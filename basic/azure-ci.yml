@@ -36,5 +36,5 @@ jobs:
       - task: Bash@3
         inputs:
          targetType: 'inline'
-         script: 'curl -H "Content-Type: multipart/form-data" -u ${jira_user}:${jira_password} -F "file=@results/test-results.xml" "${jira_server_url}/rest/raven/1.0/import/execution/junit?projectKey=${project_key}"'
+         script: 'curl -H "Content-Type: multipart/form-data" -u ruthiedlshtein@gmail.com:Aa123456! -F "file=@results/test-results.xml" "https://citybooktest.atlassian.net//rest/raven/1.0/import/execution/junit?projectKey=TEST"'
           
