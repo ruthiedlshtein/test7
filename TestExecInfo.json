@@ -6,14 +6,6 @@
         "summary": "Test Execution for junit Execution",
         "issuetype": {
             "id": "10008"
-        },
-        "components" : [
-            {
-            "name":"Interface"
-            },
-            {
-            "name":"Core"
-            }
-        ]
+        }
     }
 }
