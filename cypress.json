@@ -3,6 +3,8 @@
   "reporter": "junit",
   "reporterOptions": {
     "mochaFile": "results/test-results.xml",
-    "testCaseSwitchClassnameAndName": false
+    "testCaseSwitchClassnameAndName": false,
+    "toConsole": true,
+    "attachments": true
   }
   }
